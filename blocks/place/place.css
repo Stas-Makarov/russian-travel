@@ -1,3 +1,7 @@
 .place {
-    
+    display: flex;
+    width: 984px;
+    height: 660px;
+    margin: 0;
+    padding: 0;
 }

@@ -1,3 +1,6 @@
 .footer {
-    
+    display: flex;
+    width: 1184px;
+    height: 18px;
+    justify-content: space-between;
 }
