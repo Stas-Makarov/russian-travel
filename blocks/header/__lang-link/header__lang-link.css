@@ -13,3 +13,7 @@
 .header__lang-link:first-of-type {
     margin: 0 20px 0 0;
 }
+
+.header__lang-link:hover {
+    text-decoration: underline;
+}
