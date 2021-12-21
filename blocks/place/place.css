@@ -8,10 +8,10 @@
     padding: 0;
 }
 
-.place:last-of-type {
-    margin: 0;
+.place:nth-of-type(1), .place:nth-of-type(4) {
+    grid-template-rows: 152px 460px;
 }
 
-.place:nth-of-type(1 + 4) {
-    grid-template-rows: 152px 460px;
+.place:last-of-type {
+    margin: 0;
 }

@@ -1,4 +1,6 @@
 .place__website {
+    font-family: Inter;
+    font-style: normal;   
     font-weight: normal;
     font-size: 12px;
     line-height: 12px;
@@ -10,6 +12,8 @@
 }
 
 .place__website:last-of-type {
+    font-family: Inter;
+    font-style: normal;
     font-weight: normal;
     font-size: 18px;
     line-height: 22px;
