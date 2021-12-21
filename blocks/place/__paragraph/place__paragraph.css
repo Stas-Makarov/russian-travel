@@ -4,4 +4,10 @@
     font-size: 18px;
     line-height: 163%;
     color: #FFFFFF;
+    margin: 0;
+    padding: 0;
+}
+
+.place__paragraph:first-of-type {
+    margin: 0 0 26px;
 }
