@@ -23,3 +23,13 @@
     padding: 0;
     align-self: end;
 }
+
+@media screen and (max-width: 767px) {
+    .place__website {
+        margin: 0 0 12px 16px;
+    }
+
+    .place__website:last-of-type {
+        margin:  0 0 0 16px;
+    }
+}
