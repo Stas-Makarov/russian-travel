@@ -33,11 +33,6 @@
     grid-template-rows: 152px 440px;
 }
 
-.place:last-of-type {
-    margin: 0;
-}
-
-
 @media screen and (max-width: 1023px) {
     .place {
         grid-template-columns: 340px 352px;
@@ -53,11 +48,7 @@
 
     .place:nth-of-type(4) {
         grid-template-rows: 92px auto;
-    }
-        
-    .place:last-of-type {
-        margin: 0;
-    }      
+    }    
 }
 
 @media screen and (max-width: 767px) {
@@ -67,8 +58,4 @@
         row-gap: 32px;
         margin: 0 0 50px;
     } 
-
-    .place:last-of-type {
-        margin: 0;
-    }
 }
