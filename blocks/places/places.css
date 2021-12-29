@@ -4,27 +4,23 @@
     margin: 0 auto;
     padding: 0;
     width: 984px;
-    min-height: 3392px;
     list-style: none;
 }
 
 @media screen and (max-width: 1279px) {
     .places {
         width: 928px;
-        min-height: 3292px;
     }  
 }
 
 @media screen and (max-width: 1023px) {
     .places {
         width: 720px;
-        min-height: 2888px;
     }  
 }
 
 @media screen and (max-width: 767px) {
     .places {
         width: 320px;
-        min-height: 5177px;
     }  
 }
