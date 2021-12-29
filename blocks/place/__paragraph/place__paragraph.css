@@ -1,6 +1,4 @@
 .place__paragraph {
-    font-family: Inter;
-    font-style: normal;
     font-weight: normal;
     font-size: 18px;
     line-height: 163%;
@@ -9,13 +7,17 @@
     padding: 0;
 }
 
+.place__paragraph:first-of-type {
+    margin: 0 0 26px;
+}
+
 @media screen and (max-width: 1023px) {
     .place__paragraph {
         font-size: 16px;
     }
     
     .place__paragraph:first-of-type {
-        margin: 0 0 25px;
+        margin: 0 0 26px;
     }
 }
 
