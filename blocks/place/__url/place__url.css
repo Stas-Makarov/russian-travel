@@ -1,0 +1,19 @@
+.place__url {
+    display: inline-block;
+    font-family: Inter;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 12px;
+    text-decoration: none;
+    color: #AAAAAA;
+    margin: 0 0 12px;
+    padding: 0;
+    align-self: end;
+}
+
+@media screen and (max-width: 767px) {
+    .place__url {
+        margin: 0 0 12px 16px;
+    }
+}

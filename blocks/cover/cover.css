@@ -10,6 +10,7 @@
     background-size: 1184px 740px;
     object-fit: cover;
     align-items: center;
+    text-decoration: none;
 }
 
 .cover::before {

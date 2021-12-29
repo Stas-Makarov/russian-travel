@@ -1,4 +1,5 @@
 .cover__subtitle {
+    display: flex;
     width: 360px;
     height: 66px;
     font-family: Inter;
